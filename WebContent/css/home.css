@@ -1,0 +1,60 @@
+.header {
+    font-weight: bold;
+    padding-left: 8px;
+    border-left: solid 5px;
+    margin-bottom: 30px;
+}
+
+.comment
+{
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.comment-content {
+    padding-top: 10px;
+}
+.date {
+	text-transform: initial;
+	color:grey; 
+	opacity: 0.7;
+}
+span.comment-content-title
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 8px;
+    border-left: solid 5px;
+}
+.btn-default {
+    border: none;
+ }
+.ilike , .friend_request {
+    background-color: #f1f1f1;
+ }
+.like-btn {
+    margin-left: 5px;
+ }
+.notification {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 10px;
+ }
+.notification img {
+    margin-right: 10px;
+ }
+.del-button {
+    opacity:0.1;
+ }
+.del-button:hover {
+    opacity:1;
+    background:white;
+ }
+
+
+
+

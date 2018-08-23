@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE Context [
+<!ELEMENT Context (Resource)>
+<!ELEMENT Resource EMPTY>
+<!ATTLIST Resource name CDATA #REQUIRED type CDATA #REQUIRED maxActive CDATA #REQUIRED
+ maxIdle CDATA #REQUIRED maxWait CDATA #REQUIRED url CDATA #REQUIRED
+  driverClassName CDATA #REQUIRED username CDATA #REQUIRED password CDATA #REQUIRED>]>
+  
+<Context>
+ <Resource
+	 name="jdbc/db" type="javax.sql.DataSource" 
+	 maxActive="10"  maxIdle="30"  maxWait="10000" 
+	 url="jdbc:mysql://132.227.201.129:33306/gr3_kasdi_hidja"  driverClassName="com.mysql.jdbc.Driver"
+	 username="gr3_kasdi_hidja" password="YywZS8" />
+</Context>
